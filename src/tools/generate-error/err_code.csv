@@ -1,0 +1,18 @@
+Name,Code,HttpCode,msg
+ErrUnknown,1000,500,Something went wrong
+ErrInvalidArgument,1001,200,Invalid argument
+ErrLogin,1002,200,Invalid email or password
+ErrUnauthenticated,1003,401,Unauthentication
+ErrPermissionDenied,1006,403,Permission denied
+ErrAccountExisted,1007,409,Account already existed
+ErrSeatBooked,1008,409,Seat already booked
+ErrUserNotFound,2000,404,User not found
+ErrTheaterBrandNotFound,2001,404,Theater Brand not found
+ErrTheaterChainNotFound,2002,404,Theater Chain not found
+ErrTheaterNotFound,2003,404,Theater not found
+ErrMovieNotFound,2004,404,Movie not found
+ErrSeatNotFound,2005,404,Seat not found
+ErrShowTimeNotFound,2006,404,Show Time not found
+ErrShowTimeDuplicated,2007,404,Show Time duplicated
+ErrBookingNotFound,2008,404,Booking not found
+ErrTicketNotFound,2009,404,Ticket not found
